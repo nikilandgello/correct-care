@@ -1,0 +1,35 @@
+.scrollToTop {
+  position: fixed;
+  width: 3.7em;
+  height: 3.7em;
+  bottom: 3.7em;
+  right: 1.8em;
+  background-color: #fff;
+  border: 1px solid #ececec;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 5px 12px 0px 0px 25px 0px rgba(0, 0, 0, 0.04);
+  opacity: 0;
+  transform: translateY(20px);
+  pointer-events: none;
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    -webkit-transform: translate3d(0, -4px, 0);
+  }
+
+  svg {
+    color: #064a75;
+  }
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: all;
+}

@@ -1,0 +1,60 @@
+.featuresSection {
+  background-color: rgb(240, 248, 255);
+  padding: 30px 0;
+}
+
+.featuresContainer {
+  display: flex;
+  gap: 30px;
+}
+
+.featuresList {
+  display: flex;
+  gap: 30px;
+
+  li {
+    max-width: 360px;
+  }
+}
+
+.featureItem {
+  h3 {
+    font-size: 1.4rem;
+    margin-top: 14px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: #042759;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #2d2355;
+  }
+}
+
+.featureNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 7px 14px rgba(13, 19, 26, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1;
+}
+
+.numberOne {
+  background-color: #4a90e2;
+}
+
+.numberTwo {
+  background-color: #3bb273;
+}
+
+.numberTree {
+  background-color: #f0c554;
+}
